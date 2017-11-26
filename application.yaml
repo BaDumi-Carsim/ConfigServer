@@ -5,6 +5,11 @@ eureka:
       
 ---
 spring:
+  profiles: cold-noun
+words: icicle,refrigerator,blizzard,snowball      
+      
+---
+spring:
   profiles: subject
 words: I,You,He,She,It
 
